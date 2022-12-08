@@ -2,7 +2,7 @@
 
 ## 使用
 
-> 在Ubuntu系统下编译，可以直接运行bin/test1查看结果，也可以自行make
+> 在Ubuntu系统下编译，可以直接运行bin/中测试文件查看结果，也可以自行make
 
 存储学习Sylar课程中的中间阶段的结果以及注释
 
@@ -10,7 +10,10 @@
 
 各阶段的代码解读如下：
 
-v1		日志系统		[[Sylar_网络框架学习——日志系统（一）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/127548015?csdn_share_tail={"type"%3A"blog"%2C"rType"%3A"article"%2C"rId"%3A"127548015"%2C"source"%3A"jiaoooooo"})]		（其中LogFormat中的init函数实现与原文不同，经过测试效果一致）
+v1		日志模块		[[Sylar_网络框架学习——日志模块（一）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/127548015)]		（其中LogFormat中的init函数实现与原文不同，效果一致）
 
-v2		配置系统		[[Sylar_网络框架学习——配置系统（二）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/127671424)]		（./bin/test_config为本节可执行文件）
+v2		配置模块		[[Sylar_网络框架学习——配置系统（二）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/127671424)]		（./bin/test_config为本节可执行文件）
 
+v3		线程模块		[[Sylar_网络框架学习——线程模块（三）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/128239236)]		（./bin/test_thread和./bin/test_config为本节可执行文件）
+
+v4		协程模块		[[Sylar_网络框架学习——协程模块（四）_jiaoooooo的博客-CSDN博客](https://blog.csdn.net/jiaoooooo/article/details/128243325)]		（./bin/test_fiber为本节可执行文件）

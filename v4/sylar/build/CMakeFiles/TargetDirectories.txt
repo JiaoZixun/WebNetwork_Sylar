@@ -1,0 +1,6 @@
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/test_thread.dir
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/test_config.dir
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/sylar.dir
+/home/ubuntu/StudyCpp/sylar/build/CMakeFiles/test1.dir
