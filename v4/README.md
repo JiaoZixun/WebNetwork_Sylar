@@ -121,24 +121,24 @@ sylar::Fiber::YieldToHold();
 #include"sylar/sylar.h"
 sylar::Logger::ptr g_logger = SYLAR_GET_ROOT();
 void run_in_fiber() {
-    SYLAR_LOG_INFO(g_logger) << "run_in_fiber begin";					// 2
-    sylar::Fiber::YieldToHold();									  // 交换控制权，返回主协程
-    SYLAR_LOG_INFO(g_logger) << "run_in_fiber end";					    // 4
-    sylar::Fiber::YieldToHold();									  // 交换控制权，返回主协程
-}																   // 实际上fiber中的MainFunc运行结束，触发销毁，析构子协程 id：1
+    SYLAR_LOG_INFO(g_logger) << "run_in_fiber begin";				// 2
+    sylar::Fiber::YieldToHold();									// 交换控制权，返回主协程
+    SYLAR_LOG_INFO(g_logger) << "run_in_fiber end";					// 4
+    sylar::Fiber::YieldToHold();									// 交换控制权，返回主协程
+}																    // 实际上fiber中的MainFunc运行结束，触发销毁，析构子协程 id：1
 void test_fiber() {
-    SYLAR_LOG_INFO(g_logger) << "main begin -1";						// 0
+    SYLAR_LOG_INFO(g_logger) << "main begin -1";				    // 0
     {
-        sylar::Fiber::GetThis();									   // 初始化主协程，调用私有构造
-        SYLAR_LOG_INFO(g_logger) << "main begin";						// 1
-        sylar::Fiber::ptr fiber(new sylar::Fiber(run_in_fiber));		  // 创建子协程 id：1
-        fiber->swapIn();											  // 交换控制权，进入子协程
-        SYLAR_LOG_INFO(g_logger) << "main after swapIn";				 // 3
-        fiber->swapIn();											  // 交换控制权，进入子协程
-        SYLAR_LOG_INFO(g_logger) << "main after end";					// 5
-        fiber->swapIn();											  // 交换控制权，进入子协程
+        sylar::Fiber::GetThis();									// 初始化主协程，调用私有构造
+        SYLAR_LOG_INFO(g_logger) << "main begin";					// 1
+        sylar::Fiber::ptr fiber(new sylar::Fiber(run_in_fiber));	// 创建子协程 id：1
+        fiber->swapIn();											// 交换控制权，进入子协程
+        SYLAR_LOG_INFO(g_logger) << "main after swapIn";			// 3
+        fiber->swapIn();											// 交换控制权，进入子协程
+        SYLAR_LOG_INFO(g_logger) << "main after end";				// 5
+        fiber->swapIn();											// 交换控制权，进入子协程
     }
-    SYLAR_LOG_INFO(g_logger) << "main after end2";						 // 6
+    SYLAR_LOG_INFO(g_logger) << "main after end2";					// 6
 }																	// 析构主协程
 int main() {
     sylar::Thread::SetName("main");
