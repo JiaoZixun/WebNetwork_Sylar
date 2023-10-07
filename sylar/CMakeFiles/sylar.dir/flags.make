@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = -Dsylar_EXPORTS
 
-CXX_INCLUDES = -I/home/jzx/StudyCpp/sylar/. 
+CXX_INCLUDES = -I/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/. 
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/address.cpp.o_DEFINES = __FILE__="sylar/address.cpp"
 

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/jzx/StudyCpp/sylar/examples/sylar_demo.cpp
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar_demo.cpp
 sylar/log.h
-/home/jzx/StudyCpp/sylar/examples/sylar/log.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar/log.h
 sylar/http/http.h
-/home/jzx/StudyCpp/sylar/examples/sylar/http/http.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar/http/http.h
 sylar/service/service_event_type.h
-/home/jzx/StudyCpp/sylar/examples/sylar/service/service_event_type.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar/service/service_event_type.h
 sylar/service/service_demo.h
-/home/jzx/StudyCpp/sylar/examples/sylar/service/service_demo.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar/service/service_demo.h
 sylar/service/init_server.h
-/home/jzx/StudyCpp/sylar/examples/sylar/service/init_server.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/examples/sylar/service/init_server.h
 
 sylar/address.h
 memory
@@ -283,6 +283,8 @@ sys/syscall.h
 -
 stdio.h
 -
+dirent.h
+-
 unistd.h
 -
 stdint.h
@@ -290,5 +292,13 @@ stdint.h
 vector
 -
 string
+-
+jsoncpp/json/json.h
+-
+yaml-cpp/yaml.h
+-
+boost/lexical_cast.hpp
+-
+cxxabi.h
 -
 

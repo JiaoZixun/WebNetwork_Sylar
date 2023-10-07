@@ -61,6 +61,7 @@ CMakeFiles/sylar.dir/sylar/hook.cpp.o: sylar/util.h
 
 CMakeFiles/sylar.dir/sylar/http/http.cpp.o: sylar/http/http.cpp
 CMakeFiles/sylar.dir/sylar/http/http.cpp.o: sylar/http/http.h
+CMakeFiles/sylar.dir/sylar/http/http.cpp.o: sylar/util.h
 
 CMakeFiles/sylar.dir/sylar/http/http11_parser.cpp.o: sylar/http/http11_common.h
 CMakeFiles/sylar.dir/sylar/http/http11_parser.cpp.o: sylar/http/http11_parser.cpp

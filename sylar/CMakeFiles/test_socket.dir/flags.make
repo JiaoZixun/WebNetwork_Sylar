@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jzx/StudyCpp/sylar/. 
+CXX_INCLUDES = -I/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/. 
 
 # Custom defines: CMakeFiles/test_socket.dir/tests/test_socket.cpp.o_DEFINES = __FILE__="tests/test_socket.cpp"
 

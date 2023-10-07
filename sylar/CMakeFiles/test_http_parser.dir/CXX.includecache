@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/jzx/StudyCpp/sylar/tests/test_http_parser.cpp
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/test_http_parser.cpp
 sylar/log.h
-/home/jzx/StudyCpp/sylar/tests/sylar/log.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/log.h
 sylar/http/http_parser.h
-/home/jzx/StudyCpp/sylar/tests/sylar/http/http_parser.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/http/http_parser.h
 
 sylar/http/http.h
 memory
@@ -111,6 +111,8 @@ sys/syscall.h
 -
 stdio.h
 -
+dirent.h
+-
 unistd.h
 -
 stdint.h
@@ -118,5 +120,13 @@ stdint.h
 vector
 -
 string
+-
+jsoncpp/json/json.h
+-
+yaml-cpp/yaml.h
+-
+boost/lexical_cast.hpp
+-
+cxxabi.h
 -
 

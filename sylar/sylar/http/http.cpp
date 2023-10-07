@@ -1,4 +1,5 @@
 #include "http.h"
+#include "sylar/util.h"
 
 namespace sylar {
 namespace http {
@@ -234,7 +235,7 @@ void HttpRequest::initCookies() {
         m_parserParamFlag |= 0x4;
         return;
     }
-    PARSE_PARAM(cookie, m_cookies, ';', sylar::StringUtil::Trim);
+    PARSE_PARAM(cookie, m_cookie, ';', sylar::StringUtil::Trim);
     m_parserParamFlag |= 0x4;
 }
 

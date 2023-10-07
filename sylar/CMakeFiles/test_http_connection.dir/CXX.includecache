@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jzx/StudyCpp/sylar/tests/test_http_connection.cpp
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/test_http_connection.cpp
 iostream
 -
 sylar/http/http_connection.h
-/home/jzx/StudyCpp/sylar/tests/sylar/http/http_connection.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/http/http_connection.h
 sylar/log.h
-/home/jzx/StudyCpp/sylar/tests/sylar/log.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/log.h
 sylar/iomanager.h
-/home/jzx/StudyCpp/sylar/tests/sylar/iomanager.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/iomanager.h
 
 sylar/address.h
 memory
@@ -215,6 +215,8 @@ sys/syscall.h
 -
 stdio.h
 -
+dirent.h
+-
 unistd.h
 -
 stdint.h
@@ -222,5 +224,13 @@ stdint.h
 vector
 -
 string
+-
+jsoncpp/json/json.h
+-
+yaml-cpp/yaml.h
+-
+boost/lexical_cast.hpp
+-
+cxxabi.h
 -
 

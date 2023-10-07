@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/jzx/StudyCpp/sylar/tests/test_uri.cpp
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/test_uri.cpp
 sylar/uri.h
-/home/jzx/StudyCpp/sylar/tests/sylar/uri.h
+/home/jzx/StudyCpp/WebNetwork_Sylar/sylar/tests/sylar/uri.h
 iostream
 -
 

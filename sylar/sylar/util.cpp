@@ -1,11 +1,31 @@
-#include"util.h"
-#include"log.h"
-#include"fiber.h"
-/*
- * 包含返回几层函数栈内容的函数
-*/
-#include <execinfo.h>
+// #include"util.h"
+// #include"log.h"
+// #include"fiber.h"
+// /*
+//  * 包含返回几层函数栈内容的函数
+// */
+// #include <execinfo.h>
+// #include <sys/time.h>
+// #include <time.h>
+// #include <signal.h> // for kill()
+// #include <sys/stat.h>
+// #include <algorithm>  // for std::transform()
+// #include <google/protobuf/message.h>
+
+
+#include <unistd.h>
+#include <string.h>
 #include <sys/time.h>
+#include <dirent.h>
+#include <signal.h> // for kill()
+#include <sys/syscall.h>
+#include <sys/stat.h>
+#include <execinfo.h> // for backtrace()
+#include <cxxabi.h>   // for abi::__cxa_demangle()
+#include <algorithm>  // for std::transform()
+#include "util.h"
+#include "log.h"
+#include "fiber.h"
 
 
 namespace sylar{
@@ -520,6 +540,7 @@ std::string GetHostName() {
     return host.get();
 }
 
+# if 0
 in_addr_t GetIPv4Inet() {
     struct ifaddrs* ifas = nullptr;
     struct ifaddrs* ifa = nullptr;
@@ -563,6 +584,8 @@ std::string GetIPv4() {
     static const std::string ip = _GetIPv4();
     return ip;
 }
+# endif
+
 
 bool YamlToJson(const YAML::Node& ynode, Json::Value& jnode) {
     try {
@@ -628,6 +651,7 @@ bool JsonToYaml(const Json::Value& jnode, YAML::Node& ynode) {
     return true;
 }
 
+# if 0
 static void serialize_unknowfieldset(const google::protobuf::UnknownFieldSet& ufs, Json::Value& jnode) {
     std::map<int, std::vector<Json::Value> > kvs;
     for(int i = 0; i < ufs.field_count(); ++i) {
@@ -768,6 +792,8 @@ std::string PBToJsonString(const google::protobuf::Message& message) {
     serialize_message(message, jnode);
     return sylar::JsonUtil::ToString(jnode);
 }
+# endif
+
 
 SpeedLimit::SpeedLimit(uint32_t speed)
     :m_speed(speed)
