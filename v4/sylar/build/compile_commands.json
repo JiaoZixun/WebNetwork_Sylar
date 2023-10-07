@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++   -D__FILE__=\\\"tests/test_thread.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g   -o CMakeFiles/test_thread.dir/tests/test_thread.cpp.o -c /home/ubuntu/StudyCpp/sylar/tests/test_thread.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/tests/test_thread.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++   -D__FILE__=\\\"tests/test_config.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g   -o CMakeFiles/test_config.dir/tests/test_config.cpp.o -c /home/ubuntu/StudyCpp/sylar/tests/test_config.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/tests/test_config.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/log.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/log.cpp.o -c /home/ubuntu/StudyCpp/sylar/sylar/log.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/sylar/log.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/util.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/util.cpp.o -c /home/ubuntu/StudyCpp/sylar/sylar/util.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/sylar/util.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/config.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/config.cpp.o -c /home/ubuntu/StudyCpp/sylar/sylar/config.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/sylar/config.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++  -Dsylar_EXPORTS -D__FILE__=\\\"sylar/thread.cpp\\\" -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g -fPIC   -o CMakeFiles/sylar.dir/sylar/thread.cpp.o -c /home/ubuntu/StudyCpp/sylar/sylar/thread.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/sylar/thread.cpp"
+},
+{
+  "directory": "/home/ubuntu/StudyCpp/sylar/build",
+  "command": "/usr/bin/g++   -I/home/ubuntu/StudyCpp/sylar/. -I/usr/local/include   -rdynamic -O3 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g   -o CMakeFiles/test1.dir/tests/test.cpp.o -c /home/ubuntu/StudyCpp/sylar/tests/test.cpp",
+  "file": "/home/ubuntu/StudyCpp/sylar/tests/test.cpp"
+}
+]

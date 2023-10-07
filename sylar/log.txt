@@ -1,0 +1,71 @@
+2022-12-04 13:53:54	hello world
+
+2022-12-04 13:53:54 - hello world
+
+2022-12-04 13:53:54 - name = class.mapdescription = class person maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEEvalue = 
+2022-12-04 13:53:54 - name = class.persondescription = class persontype = 6Personvalue = name: ""
+age: 0
+sex: false
+2022-12-04 13:53:54 - name = class.vecmapdescription = class person vec maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEEvalue = 
+2022-12-04 13:53:54 - name = logsdescription = logs configtype = St3setIN5sylar9LogDefineESt4lessIS1_ESaIS1_EEvalue = - name: root
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2022-12-04 13:53:54 - name = system.int_listdescription = system int listtype = NSt7__cxx114listIiSaIiEEEvalue = - 1
+- 2
+2022-12-04 13:53:54 - name = system.int_setdescription = system int settype = St3setIiSt4lessIiESaIiEEvalue = - 11
+- 22
+2022-12-04 13:53:54 - name = system.int_unsetdescription = system int unsettype = St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEEvalue = - 1
+- 2
+2022-12-04 13:53:54 - name = system.int_vecdescription = system int vectype = St6vectorIiSaIiEEvalue = - 1
+- 2
+- 3
+2022-12-04 13:53:54 - name = system.portdescription = system porttype = ivalue = 8080
+2022-12-04 13:53:54 - name = system.str_int_mapdescription = system str_int maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEEvalue = k: 21
+2022-12-04 13:53:54 - name = system.str_int_unmapdescription = system str_int unmaptype = St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEEvalue = k2: 10
+k: 21
+2022-12-04 13:53:54 - name = system.valuedescription = system valuetype = fvalue = 10.21
+2022-12-08 06:35:24	hello world
+
+2022-12-08 06:35:24 - hello world
+
+2022-12-08 06:35:24 - name = class.mapdescription = class person maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE6PersonSt4lessIS5_ESaISt4pairIKS5_S6_EEEvalue = 
+2022-12-08 06:35:24 - name = class.persondescription = class persontype = 6Personvalue = name: ""
+age: 0
+sex: false
+2022-12-08 06:35:24 - name = class.vecmapdescription = class person vec maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorI6PersonSaIS7_EESt4lessIS5_ESaISt4pairIKS5_S9_EEEvalue = 
+2022-12-08 06:35:24 - name = fiber.stack_sizedescription = fiber stack sizetype = jvalue = 1048576
+2022-12-08 06:35:24 - name = logsdescription = logs configtype = St3setIN5sylar9LogDefineESt4lessIS1_ESaIS1_EEvalue = - name: root
+  level: INFO
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+- name: system
+  level: DEBUG
+  appenders:
+    - type: FileLogAppender
+      file: log.txt
+    - type: StdoutLogAppender
+2022-12-08 06:35:24 - name = system.int_listdescription = system int listtype = NSt7__cxx114listIiSaIiEEEvalue = - 1
+- 2
+2022-12-08 06:35:24 - name = system.int_setdescription = system int settype = St3setIiSt4lessIiESaIiEEvalue = - 11
+- 22
+2022-12-08 06:35:24 - name = system.int_unsetdescription = system int unsettype = St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEEvalue = - 1
+- 2
+2022-12-08 06:35:24 - name = system.int_vecdescription = system int vectype = St6vectorIiSaIiEEvalue = - 1
+- 2
+- 3
+2022-12-08 06:35:24 - name = system.portdescription = system porttype = ivalue = 8080
+2022-12-08 06:35:24 - name = system.str_int_mapdescription = system str_int maptype = St3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4lessIS5_ESaISt4pairIKS5_iEEEvalue = k: 21
+2022-12-08 06:35:24 - name = system.str_int_unmapdescription = system str_int unmaptype = St13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiSt4hashIS5_ESt8equal_toIS5_ESaISt4pairIKS5_iEEEvalue = k2: 10
+k: 21
+2022-12-08 06:35:24 - name = system.valuedescription = system valuetype = fvalue = 10.21

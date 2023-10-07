@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jzx/StudyCpp/sylar/tests/test_uri.cpp
+sylar/uri.h
+/home/jzx/StudyCpp/sylar/tests/sylar/uri.h
+iostream
+-
+
+sylar/address.h
+memory
+-
+string
+-
+sys/socket.h
+-
+sys/types.h
+-
+sys/un.h
+-
+iostream
+-
+arpa/inet.h
+-
+unistd.h
+-
+vector
+-
+map
+-
+
+sylar/uri.h
+memory
+-
+string
+-
+stdint.h
+-
+address.h
+sylar/address.h
+
