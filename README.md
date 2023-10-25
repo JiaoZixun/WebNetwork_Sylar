@@ -25,3 +25,5 @@ v6		IO协程调度模块
 v7		定时器模块
 
 v8		Hook模块
+
+基于sylar实现的功能可见：https://github.com/JiaoZixun/Sylar_Apply
